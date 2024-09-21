@@ -718,6 +718,49 @@ section,
   background-color: var(--accent-color);
 }
 
+.skills .tech-box {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
+  margin: 2rem;
+}
+
+.skills .tech-box .tech {
+  opacity: 1;
+  transform: none;
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* background-color: rgb(255, 250, 251); */
+  border-radius: 0.5rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .skills .tech-box .tech {
+    width: 12rem;
+    margin: 1rem;
+  }
+}
+
+.skills .tech-box .tech img {
+  width: 3rem;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.skills .tech-box .tech h4 {
+  margin-left: 1rem;
+  font-size: inherit;
+  font-weight: inherit;
+  vertical-align: middle;
+}
+
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
