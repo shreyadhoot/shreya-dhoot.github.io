@@ -735,11 +735,12 @@ section,
   border-radius: 0.5rem;
   align-items: center;
   cursor: pointer;
+  margin: 1rem;
+  width: 12rem;
 }
 
 @media (min-width: 768px) {
   .skills .tech-box .tech {
-    width: 12rem;
     margin: 1rem;
   }
 }
